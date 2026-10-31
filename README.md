@@ -9,7 +9,7 @@
 
 ## 👋 Hi, I'm Vishnu
 
-I'm a **Sr. Software Engineer** in Bengaluru working on **platform engineering, AI/ML infrastructure and data engineering** across **AWS and GCP**. On the side I build multi-agent systems.
+I'm a **Sr. Software Engineer** (ex-Amazon) in Bengaluru working on **platform engineering, AI/ML infrastructure and data engineering** across **AWS and GCP**. On the side I build multi-agent systems.
 
 ## 🧠 How I think about agents
 

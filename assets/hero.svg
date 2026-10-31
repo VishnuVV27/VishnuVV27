@@ -19,7 +19,7 @@
 
   <g fill="#c9d1d9">
     <text x="40" y="90" clip-path="url(#c1)"><tspan fill="#3fb950">$</tspan> whoami</text>
-    <text x="40" y="120" clip-path="url(#c2)" fill="#58a6ff">Vishnu Vardhan J — Sr. Software Engineer</text>
+    <text x="40" y="120" clip-path="url(#c2)" fill="#58a6ff">Vishnu Vardhan J — Sr. Software Engineer · ex-Amazon</text>
     <text x="40" y="160" clip-path="url(#c3)"><tspan fill="#3fb950">$</tspan> ./supervisor plan "research, build, review"</text>
     <text x="40" y="190" clip-path="url(#c4)"><tspan fill="#3fb950">✓</tspan> DAG ready: research · analysis · coding → critic → <tspan fill="#d29922">gate</tspan> → writer</text>
     <text x="40" y="220" clip-path="url(#c5)"><tspan fill="#d29922">⏸</tspan> risky step — waiting for human approval</text>
