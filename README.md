@@ -3,6 +3,8 @@
 <img src="assets/hero.svg" alt="Terminal: Vishnu Vardhan J builds AI agent systems" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vishnu--vardhan--j27-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishnu-vardhan-j27/)
+![Location](https://img.shields.io/badge/LOCATION-Bengaluru,_India-2c5364?style=for-the-badge&logo=googlemaps&logoColor=white)
+[![GitHub followers](https://img.shields.io/github/followers/VishnuVV27?style=for-the-badge&logo=github&color=181717)](https://github.com/VishnuVV27?tab=followers)
 ![Profile views](https://komarev.com/ghpvc/?username=VishnuVV27&style=for-the-badge&color=2c5364&label=PROFILE+VIEWS)
 
 </div>
