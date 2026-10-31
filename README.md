@@ -29,6 +29,7 @@ Production-grade agent platform: **Temporal**-orchestrated DAGs, human-in-the-lo
 **Cloud & platform**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
@@ -51,6 +52,11 @@ Production-grade agent platform: **Temporal**-orchestrated DAGs, human-in-the-lo
 
 [![cli/cli](https://img.shields.io/badge/cli%2Fcli-merged_PR-8957e5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cli/cli/pull/12652) **[Fix redundant API call in `gh issue view --comments`](https://github.com/cli/cli/pull/12652)**, merged into GitHub's official CLI.
 
-## 🔭 Studying
+## 📚 Learning
 
-[vLLM](https://github.com/vllm-project/vllm) · [CrewAI](https://github.com/crewAIInc/crewAI) · [langchaingo](https://github.com/tmc/langchaingo) · [Flyte](https://github.com/flyteorg/flyte) · [GitHub CLI](https://github.com/cli/cli)
+- 🧬 **Generative AI with LLMs** (DeepLearning.AI × AWS): PEFT/LoRA vs full fine-tuning, RLHF, prompt engineering, production deployment
+- 🤖 **Agentic AI and MCP**: *Build Your First Agentic AI System*, *Model Context Protocol: Hands-On with Agentic AI*
+- ☸️ **Kubernetes**: CKAD prep, with the exam next and then CKA
+- 🐳 **Docker Foundations** and ☕ **Java Foundations** (JetBrains) professional certificates
+
+**Following:** [vLLM](https://github.com/vllm-project/vllm) · [CrewAI](https://github.com/crewAIInc/crewAI) · [langchaingo](https://github.com/tmc/langchaingo) · [Flyte](https://github.com/flyteorg/flyte) · [GitHub CLI](https://github.com/cli/cli)
