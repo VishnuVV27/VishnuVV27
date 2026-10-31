@@ -9,7 +9,7 @@
 
 ## 👋 Hi, I'm Vishnu
 
-I'm a **Software Engineer** building AI agent systems, and the backend and DevOps plumbing that keeps them reliable.
+I'm a **Sr. Software Engineer** in Bengaluru working on **platform engineering, AI/ML infrastructure and data engineering** across **AWS and GCP**. On the side I build multi-agent systems.
 
 ## 🧠 How I think about agents
 
@@ -53,6 +53,8 @@ Multi-agent FIFA World Cup 2026 manager: squad builder, tactical analysis and ma
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
