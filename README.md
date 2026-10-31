@@ -59,6 +59,10 @@ Multi-agent FIFA World Cup 2026 manager: squad builder, tactical analysis and ma
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
+## 🤝 Open source
+
+[![cli/cli](https://img.shields.io/badge/cli%2Fcli-merged_PR-8957e5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cli/cli/pull/12652) **[Fix redundant API call in `gh issue view --comments`](https://github.com/cli/cli/pull/12652)**, merged into GitHub's official CLI.
+
 ## 🔭 Studying
 
 [vLLM](https://github.com/vllm-project/vllm) · [CrewAI](https://github.com/crewAIInc/crewAI) · [langchaingo](https://github.com/tmc/langchaingo) · [Flyte](https://github.com/flyteorg/flyte) · [GitHub CLI](https://github.com/cli/cli)
