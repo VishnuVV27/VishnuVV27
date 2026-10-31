@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 330" width="940" height="330" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#16222e"/>
+    </linearGradient>
+    <style>
+      .edge{fill:none;stroke:#58a6ff;stroke-width:2;stroke-dasharray:6 8;animation:flow 1s linear infinite}
+      .warn{stroke:#d29922}
+      .node{fill:#161b22;stroke:#58a6ff;stroke-width:1.5}
+      .gate{fill:#2a2110;stroke:#d29922;stroke-width:1.5;animation:pulse 2s ease-in-out infinite}
+      .t{fill:#e6edf3;text-anchor:middle;dominant-baseline:central}
+      .s{fill:#8b949e;font-size:11px}
+      @keyframes flow{to{stroke-dashoffset:-14}}
+      @keyframes pulse{50%{stroke-opacity:.25}}
+    </style>
+  </defs>
+  <rect width="940" height="330" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="939" height="329" rx="14" fill="none" stroke="#30363d"/>
+
+  <!-- edges -->
+  <path class="edge" d="M130 150H165"/>
+  <path class="edge" d="M275 150C305 150 305 60 330 60"/>
+  <path class="edge" d="M275 150H330"/>
+  <path class="edge" d="M275 150C305 150 305 240 330 240"/>
+  <path class="edge" d="M440 60C640 60 700 140 790 140"/>
+  <path class="edge" d="M440 150H790"/>
+  <path class="edge" d="M440 240H490"/>
+  <path class="edge" d="M600 240H630"/>
+  <path class="edge warn" d="M740 240C775 240 770 160 790 160"/>
+
+  <!-- nodes -->
+  <rect class="node" x="20"  y="128" width="110" height="44" rx="10"/><text class="t" x="75"  y="150">Prompt</text>
+  <rect class="node" x="165" y="128" width="110" height="44" rx="10"/><text class="t" x="220" y="150">Supervisor</text>
+  <rect class="node" x="330" y="38"  width="110" height="44" rx="10"/><text class="t" x="385" y="60">Research</text>
+  <rect class="node" x="330" y="128" width="110" height="44" rx="10"/><text class="t" x="385" y="150">Analysis</text>
+  <rect class="node" x="330" y="218" width="110" height="44" rx="10"/><text class="t" x="385" y="240">Coding</text>
+  <rect class="node" x="490" y="218" width="110" height="44" rx="10"/><text class="t" x="545" y="240">Critic</text>
+  <rect class="gate" x="630" y="218" width="110" height="44" rx="10"/><text class="t" x="685" y="240">Human gate</text>
+  <rect class="node" x="790" y="128" width="110" height="44" rx="10"/><text class="t" x="845" y="150">Writer</text>
+
+  <text class="s" x="220" y="196" text-anchor="middle">plans the DAG</text>
+  <text class="s" x="620" y="190" text-anchor="middle">Temporal runs it: retries, deps, timeouts</text>
+  <text class="s" x="685" y="284" text-anchor="middle">workflow pauses until a person signs off</text>
+  <text x="470" y="313" text-anchor="middle" fill="#8b949e" font-size="12">Kafka watches every step. It never drives control flow.</text>
+</svg>

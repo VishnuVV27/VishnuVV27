@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="16">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#16222e"/>
+    </linearGradient>
+    <!-- each clip reveals its line left-to-right inside a 14s loop -->
+    <clipPath id="c1"><rect x="40" y="70" height="26" width="0"><animate attributeName="width" values="0;0;230;230;0" keyTimes="0;0.02;0.10;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="100" height="26" width="0"><animate attributeName="width" values="0;0;0;560;560;0" keyTimes="0;0.10;0.12;0.22;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="140" height="26" width="0"><animate attributeName="width" values="0;0;0;520;520;0" keyTimes="0;0.24;0.26;0.38;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="170" height="26" width="0"><animate attributeName="width" values="0;0;0;780;780;0" keyTimes="0;0.40;0.42;0.56;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="200" height="26" width="0"><animate attributeName="width" values="0;0;0;560;560;0" keyTimes="0;0.58;0.60;0.70;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect width="900" height="300" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="14" fill="none" stroke="#30363d"/>
+  <rect width="900" height="40" rx="14" fill="#161b22"/><rect y="26" width="900" height="14" fill="#161b22"/>
+  <circle cx="26" cy="20" r="6" fill="#ff5f56"/><circle cx="48" cy="20" r="6" fill="#ffbd2e"/><circle cx="70" cy="20" r="6" fill="#27c93f"/>
+  <text x="450" y="25" text-anchor="middle" fill="#8b949e" font-size="13">vishnu@agents ~ %</text>
+
+  <g fill="#c9d1d9">
+    <text x="40" y="90" clip-path="url(#c1)"><tspan fill="#3fb950">$</tspan> whoami</text>
+    <text x="40" y="120" clip-path="url(#c2)" fill="#58a6ff">Vishnu Vardhan J — Software Engineer, AI agent systems</text>
+    <text x="40" y="160" clip-path="url(#c3)"><tspan fill="#3fb950">$</tspan> ./supervisor plan "research, build, review"</text>
+    <text x="40" y="190" clip-path="url(#c4)"><tspan fill="#3fb950">✓</tspan> DAG ready: research · analysis · coding → critic → <tspan fill="#d29922">gate</tspan> → writer</text>
+    <text x="40" y="220" clip-path="url(#c5)"><tspan fill="#d29922">⏸</tspan> risky step — waiting for human approval</text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="40" y="244" width="10" height="18" fill="#c9d1d9">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="62" y="258" fill="#8b949e" font-size="13">Python · Go · Java · Temporal · Kafka · Next.js</text>
+</svg>
